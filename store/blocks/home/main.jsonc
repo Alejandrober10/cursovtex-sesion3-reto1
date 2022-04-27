@@ -1,0 +1,126 @@
+{
+    // -------------equipos medicos---------------
+    "flex-layout.row#maincategorie":{
+        "children":[
+            "flex-layout.row#mainCategorie"
+
+        ]
+    },
+    "flex-layout.row#mainCategorie":{
+        "children":[
+            "flex-layout.col#mainCategorie-1",
+            "flex-layout.col#mainCategorie-2",
+            "flex-layout.col#mainCategorie-3",
+            "flex-layout.col#mainCategorie-4"
+        ]
+    },
+    "rich-text#title-MainCategorie":{
+        "props":{
+            "text":"EQUIPOS MEDICOS"
+        }
+     },
+     "image#bannerMainCategorie":{
+         "props":{
+            "src":"https://imgur.com/ZrBiPsb.jpg"
+            
+         }
+        },
+    "flex-layout.col#mainCategorie-1":{
+        "children":[
+            "image#MainCategorie-1",
+            "rich-text#tittleMainCategorie-1",
+            "rich-text#subTittleMainCategorie-1"
+        ]
+    },
+    "flex-layout.col#mainCategorie-2":{
+        "children":[
+            "image#MainCategorie-2",
+            "rich-text#tittleMainCategorie-2",
+            "rich-text#subTittleMainCategorie-2"
+        ]
+    },
+    "flex-layout.col#mainCategorie-3":{
+        "children":[
+            "image#MainCategorie-3",
+            "rich-text#tittleMainCategorie-3",
+            "rich-text#subTittleMainCategorie-3"
+        ]
+    },
+    "flex-layout.col#mainCategorie-4":{
+        "children":[
+            "image#MainCategorie-4",
+            "rich-text#tittleMainCategorie-4",
+            "rich-text#subTittleMainCategorie-4"
+        ]
+    },
+    // ---------contenido-------------------
+    // imagenes
+    "image#MainCategorie-1":{
+        "props":{
+             "src":"https://imgur.com/TxKbeXx.jpg"
+        }
+    },
+    "image#MainCategorie-2":{
+        "props":{
+            "src":"https://imgur.com/7xpSws2.jpg"
+       }
+    },
+    "image#MainCategorie-3":{
+        "props":{
+            "src":"https://imgur.com/atdMrTd.jpg"
+       }
+    },
+    "image#MainCategorie-4":{
+        "props":{
+            "src":"https://imgur.com/cmOjeeo.jpg"
+       }
+    },
+    // textos
+    "rich-text#tittleMainCategorie-1":{
+        "props":{
+            "text":"PULSOXIMETROS"
+        }
+     },
+    "rich-text#subTittleMainCategorie-1":{
+        "props":{
+            "text":"VER PRODUCTOS"
+        }
+     },
+     "rich-text#tittleMainCategorie-2":{
+        "props":{
+            "text":"TERMOMETRO DIGITAL"
+        }
+     },
+    "rich-text#subTittleMainCategorie-2":{
+        "props":{
+            "text":"VER PRODUCTOS"
+        }
+     },
+     "rich-text#tittleMainCategorie-3":{
+        "props":{
+            "text":"BALANZA MECANICA"
+        }
+     },
+    "rich-text#subTittleMainCategorie-3":{
+        "props":{
+            "text":"VER PRODUCTOS"
+        }
+     },
+     "rich-text#tittleMainCategorie-4":{
+        "props":{
+            "text":"CONCENTRADOR DE OXIGENO"
+        }
+     },
+    "rich-text#subTittleMainCategorie-4":{
+        "props":{
+            "text":"VER PRODUCTOS"
+        }
+     },
+    //  ----boton ver categoria----
+     "rich-text#verCategoria":{
+        "props":{
+            "text":"VER CATEGORÍA",
+            "link":"/"
+        }
+     }
+}

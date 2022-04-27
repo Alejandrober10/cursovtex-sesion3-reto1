@@ -1,0 +1,613 @@
+{
+    "store.home": {
+        "blocks": [
+            // "responsive-layout.desktop#reto1"
+            // "responsive-layout.mobile#reto2"
+            "list-context.product-list#top-sale"
+        ]
+    },
+
+////////////////////////////////////////////////////////////////////////////////////////
+// -----------------RETO 1------------------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////////////
+
+            // "flex-layout.row#contenedorInformacion",
+            // "flex-layout.row#contendorQueEstasBuscando"
+            // "flex-layout.row#contenedorInformacion":{
+            //     "children":[ 
+            //         "flex-layout.col#iconoInformativo-1",
+            //         "flex-layout.col#iconoInformativo-2",
+            //         "flex-layout.col#iconoInformativo-3",
+            //         "flex-layout.col#iconoInformativo-4",
+            //         "flex-layout.col#iconoInformativo-5"
+            //     ]
+            // },
+            //         "flex-layout.col#iconoInformativo-1":{
+            //             "children":[
+            //                 "rich-text#texto-1"
+            //             ]
+            //         },
+            //         "flex-layout.col#iconoInformativo-2":{
+            //             "children":[
+            //                 "rich-text#texto-2"
+            //             ]
+            //         },
+            //         "flex-layout.col#iconoInformativo-3":{
+            //             "children":[
+            //                 "rich-text#texto-3"
+            //             ]
+            //         },
+            //         "flex-layout.col#iconoInformativo-4":{
+            //             "children":[
+            //                 "rich-text#texto-4"
+            //             ]
+            //         },
+            //         "flex-layout.col#iconoInformativo-5":{
+            //             "children":[
+            //                 "rich-text#texto-5"
+            //             ]
+            //         },
+            //             // ---contenido---
+            //             "rich-text#texto-1":{
+            //                 "props":{
+            //                     "text": "![imagen de prueba](https://plchldr.co/i/93x93?&bg=000&fc=fff) Entrega en **45 min**"
+            //                 }
+            //             },
+            //             "rich-text#texto-2":{
+            //                 "props":{
+            //                     "text": "![imagen de prueba](https://plchldr.co/i/93x93?&bg=000&fc=fff) Compra **fácil y segura**"
+            //                 }
+            //             },
+            //             "rich-text#texto-3":{
+            //                 "props":{
+            //                     "text": "![imagen de prueba](https://plchldr.co/i/93x93?&bg=000&fc=fff) Mejores precios y **ofertas**"
+            //                 }
+            //             },
+            //             "rich-text#texto-4":{
+            //                 "props":{
+            //                     "text": "![imagen de prueba](https://plchldr.co/i/93x93?&bg=000&fc=fff) **seguimiento** de tus pedidos"
+            //                 }
+            //             },
+            //             "rich-text#texto-5":{
+            //                 "props":{
+            //                     "text": "![imagen de prueba](https://plchldr.co/i/93x93?&bg=000&fc=fff) pago **online y contra entrega**"
+            //                 }
+            //             },
+
+            // "flex-layout.row#contenedorQueEstasBuscando":{
+            //     "children":[ 
+            //         "flex-layout.col#iconopregunta",
+            //         "flex-layout.col#iconoBusqueda-1",
+            //         "flex-layout.col#iconoBusqueda-2",
+            //         "flex-layout.col#iconoBusqueda-3",
+            //         "flex-layout.col#iconoBusqueda-4",
+            //         "flex-layout.col#iconoBusqueda-5",
+            //         "flex-layout.col#iconoBusqueda-6",
+            //         "flex-layout.col#iconoBusqueda-7",
+            //         "flex-layout.col#iconoBusqueda-8"
+            //     ]
+            // },
+            //     "flex-layout.col#iconopregunta":{
+            //         "children":[
+            //             "richtext#pregunta",
+            //             "richtext#verTodo"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-1":{
+            //         "children":[
+            //             "image#producto-1",
+            //             "rich-text#texto-1"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-2":{
+            //         "children":[
+            //             "image#producto-2",
+            //             "rich-text#texto-2"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-3":{
+            //         "children":[
+            //             "image#producto-3",
+            //             "rich-text#texto-3"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-4":{
+            //         "children":[
+            //             "image#producto-4",
+            //             "rich-text#texto-4"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-5":{
+            //         "children":[
+            //             "image#producto-5",
+            //             "rich-text#texto-5"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-6":{
+            //         "children":[
+            //             "image#producto-6",
+            //             "rich-text#texto-6"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-7":{
+            //         "children":[
+            //             "image#producto-7",
+            //             "rich-text#texto-7"
+            //         ]
+            //     },
+            //     "flex-layout.col#iconoBusqueda-8":{
+            //         "children":[
+            //             "image#producto-8",
+            //             "rich-text#texto-8"
+            //         ]
+            //     },
+            //         // ----contenido---
+            //             "richtext#pregunta":{
+            //                 "props":{
+            //                     "text":"**¿QUÉ ESTAS BUSCANDO?**"
+            //                 }
+            //             },
+            //             "richtext#verTodo":{
+            //                 "props":{
+            //                     "text":"**VER TODO**"
+            //                 }
+            //             },
+            //             "image#producto-1":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "image#producto-2":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "image#producto-3":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "image#producto-4":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "image#producto-5":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "image#producto-6":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "image#producto-7":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "image#producto-8":{
+            //                 "src":"https://https://plchldr.co/i/93x93?&bg=000&fc=fff"
+            //             },
+            //             "rich-text#buscandoTexto-1":{
+            //                 "props":{
+            //                     "text":"Cuidado Capilar"
+            //                 }
+            //             },
+            //             "rich-text#buscandoTexto-2":{
+            //                 "props":{
+            //                     "text":"Cuidado Corporal"
+            //                 }
+            //             },
+            //             "rich-text#buscandoTexto-3":{
+            //                 "props":{
+            //                     "text":"Cuidado Facial"
+            //                 }
+            //             },
+            //             "rich-text#buscandoTexto-4":{
+            //                 "props":{
+            //                     "text":"maquillaje"
+            //                 }
+            //             },
+            //             "rich-text#buscandoTexto-5":{
+            //                 "props":{
+            //                     "text":"Cuidado Bebé"
+            //                 }
+            //             },
+            //             "rich-text#buscandoTexto-6":{
+            //                 "props":{
+            //                     "text":"Cuidado Capilar"
+            //                 }
+            //             },
+            //             "rich-text#buscandoTexto-7":{
+            //                 "props":{
+            //                     "text":"Cuidado Corporal"
+            //                 }
+            //             },
+            //             "rich-text#buscandoTexto-8":{
+            //                 "props":{
+            //                     "text":"Cuidado Facial"
+            //                 }
+            //             }
+
+////////////////////////////////////////////////////////////////////////////////////////
+// -----------------RETO 2------------------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////////////
+
+        // "responsive-layout.desktop#reto1":{
+        //     "children":[
+        //         "flex-layout.row#containerMain"
+        //     ]
+        // },
+        // "flex-layout.row#containerMain":{
+        //     "children":[
+        //         "flex-layout.col#image",
+        //         "flex-layout.col#container"
+        //     ]
+        // },
+        
+        //     "flex-layout.col#image":{
+        //         "children":[
+        //             "image#main-desktop"
+        //         ]
+        //     },
+        //     "image#main-desktop": {
+        //         "props": {
+        //             "src": "https://i.imgur.com/ipQipBB.jpg",
+        //              "maxHeight": 50
+        //         }
+        //       },
+        //       "flex-layout.col#container":{
+        //         "children":[
+        //             "rich-text#tittle",
+        //             "rich-text#paragraph",
+        //             // "flex-layout.row#containerIcon"
+        //             "responsive-layout.desktop",
+        //             "responsive-layout.mobile"
+        //         ]
+        //       },
+        //       "flex-layout.row#containerIcon":{
+        //             "children":[
+        //                 "flex-layout.col#Icon-1",
+        //                 "flex-layout.col#Icon-2",
+        //                 "flex-layout.col#Icon-3"
+        //             ]
+        //       },
+        // "responsive-layout.mobile#reto2":{
+
+        // },
+
+        // "image#main-mobile": {
+        //     "props": {
+        //         "src": "https://i.imgur.com/ipQipBB.jpg",
+        //         "maxHeight": 50
+        //     }
+        // }
+
+////////////////////////////////////////////////////////////////////////////////////////
+// -----------------RETO 3------------------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////////////
+// "flex-layout.row#main":{
+//     "children":[
+//         "flex-layout.col#info",
+//         "flex-layout.col#category-1",
+//         "flex-layout.col#category-2",
+//         "flex-layout.col#category-3"
+//     ]
+// },
+//     "flex-layout.col#info":{
+//         "children":[
+//             "rich-text#title",
+//             "rich-text#paragraph",
+//             "rich-text#buttom"
+//         ]
+
+//     },
+//     "flex-layout.col#category-1":{
+//         "children":[
+//             "rich-text#title-category-1",
+//             "rich-text#paragraph-1",
+//             "image#category-1"
+//         ]
+//     },
+//     "flex-layout.col#category-2":{
+//         "children":[
+//             "rich-text#title-category-2",
+//             "rich-text#paragraph-2",
+//             "image#category-2"
+//         ]
+//     },
+//     "flex-layout.col#category-3":{
+//         "children":[
+//             "rich-text#title-category-3",
+//             "rich-text#paragraph-3",
+//             "image#category-3"
+//         ]
+//     },
+//             "rich-text#title":{
+//                 "props":{
+//                     "text":"Latest arrivales and trends release"
+//                 }
+//             },
+//             "rich-text#paragraph":{
+//                 "props":{
+//                     "text":"New possibilites. Better access."
+//                 }
+//             },
+//             "rich-text#buttom":{
+//                 "props":{
+//                     "text":"View more"
+//                 }
+//             },
+//             "rich-text#title-category-1":{
+//                 "props":{
+//                     "text":"Shipping dsicount"
+//                 }
+//             },
+//             "rich-text#paragraph-1":{
+//                 "props":{
+//                     "text":"Up to US $20 off shipping"
+//                 }
+//             },
+//             "image#category-1":{
+//                 "props": {
+//                     "src": "https://imgur.com/u0KnAfL.jpg",
+//                     "maxHeight": 50
+//                 }
+//             },
+//             "rich-text#title-category-2":{
+//                 "props":{
+//                     "text":"2022 trends release"
+//                 }
+//             },
+//             "rich-text#paragraph-2":{
+//                 "props":{
+//                     "text":"Stay ahead of the curve"
+//                 }
+//             },
+//             "image#category-2":{
+//                 "props": {
+//                     "src": "https://imgur.com/QJVSA3f.jpg",
+//                     "maxHeight": 50
+//                 }
+//             },
+//             "rich-text#title-category-3":{
+//                 "props":{
+//                     "text":"Verified manufacturers"
+//                 }
+//             },
+//             "rich-text#paragraph-3":{
+//                 "props":{
+//                     "text":"US $1M+ exports or over 100"
+//                 }
+//             },
+//             "image#category-3":{
+//                 "props": {
+//                     "src": "https://imgur.com/JsCrWhS.jpg",
+//                     "maxHeight": 50
+//                 }
+//             },
+////////////////////////////////////////////////////////////////////////////////////////
+// ----------------SESION 3-----------------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////////////
+// "flex-layout.row#promises":{
+//     "children":[
+//         "slider-layout#promises"
+//     ]
+// },
+// "slider-layout#promises":{
+//     "props":{
+//         "itemsPerPage": {
+//             "desktop": 5,
+//             "tablet":3,
+//             "mobile":1
+//         },
+//         "showNavigationArrows":"mobileOnly",
+//         "showPaginationDots":"never"
+//     },
+//     "children":[
+//         "flex-layout.col#iconoInformativo-1",
+//         "flex-layout.col#iconoInformativo-2",
+//         "flex-layout.col#iconoInformativo-3",
+//         "flex-layout.col#iconoInformativo-4",
+//         "flex-layout.col#iconoInformativo-5"
+//     ]
+// },
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+// ----------------SESION 3 reto 2----------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////////////
+
+// "list-context.image-list#main-slider":{
+//     "title":"carrusel",
+//     "children":[
+//         "slider-layout#main-slider"
+//     ],
+//     "props":{
+//         "images":[
+//             {
+//                 "image":"https://i.imgur.com/oY7YEDM.jpg",
+//                 "link":{
+//                     "url":"/categoria"
+//                 }
+//             },
+//             {
+//                 "image":"https://i.imgur.com/oY7YEDM.jpg",
+//                 "link":{
+//                     "url":"/categoria"
+//                 }
+//             },
+//             {
+//                 "image":"https://i.imgur.com/oY7YEDM.jpg",
+//                 "link":{
+//                     "url":"/categoria"
+//                 }
+//             }
+//         ]
+//     }
+// },
+// "slider-layout#main-slider":{
+//     "props":{
+//         "height":650,
+//         "preload":true,
+//         "itemsPerPage": {
+//             "desktop": 1,
+//             "phone":1
+//         },
+//         "infinite": true,
+//         "autoplay": {
+//             "timeout": 3500,
+//             "stopOnHover": true
+//         },
+//         "showNavigationArrows":"always",
+//         "showPaginationDots":"always"
+//     }
+
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////
+// ----------------SESION 3 reto 3----------------------------------------------------//
+// ////////////////////////////////////////////////////////////////////////////////////////
+// "list-context.image-list#main-slider":{
+//          "title":"carrusel",
+//          "children":[
+//              "slider-layout#main-slider"
+//          ],
+//          "props":{
+//              "images":[
+//                  {
+//                      "image":"https://i.imgur.com/oY7YEDM.jpg",
+//                      "link":{
+//                          "url":"/categoria"
+//                      }
+//                  },
+//                  {
+//                      "image":"https://i.imgur.com/oY7YEDM.jpg",
+//                      "link":{
+//                          "url":"/categoria"
+//                      }
+//                  },
+//                  {
+//                      "image":"https://i.imgur.com/oY7YEDM.jpg",
+//                      "link":{
+//                          "url":"/categoria"
+//                      }
+//                  }
+                 
+//              ]
+//          }
+//      },
+//      "slider-layout#main-slider":{
+//          "props":{
+//              "height":650,
+//              "preload":true,
+//              "itemsPerPage": {
+//                  "desktop": 1,
+//                  "phone":1
+//              },
+//              "infinite": true,
+//              "autoplay": {
+//                  "timeout": 3500,
+//                  "stopOnHover": true
+//              },
+//              "showNavigationArrows":"always",
+//              "showPaginationDots":"always"
+//          },
+//          "children":[
+//              "link.product#product-page"
+//          ]
+//      },
+
+//      "link.product#product-page": {
+//         "props": {
+//           "href": "/video-prueba",
+//           "label": "video BlackSip",
+//           "children":[
+//             "video#background"
+//           ]
+//         }
+//       },
+
+//      "video#background": {
+//         "props": {
+//           "width": "100%",
+//           "height": "600px",
+//           "loop": false,
+//           "autoPlay": true,
+//           "muted": false,
+//           "src": "https://blacksip.com/imgload/Forus-UY/videos/V%C3%ADdeo-intervenci%C3%B3n-botas.mp4",
+//           "blockClass": "videoEl"
+//         }
+//       },
+////////////////////////////////////////////////////////////////////////////////////////
+// ----------------SESION 4 reto 4----------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////////////
+    //   "list-context.product-list#top-sale":{
+    //       "blocks":[
+    //         "product-summary.shelf#productos"
+    //       ],
+    //       "children":[
+    //         "list-context-renderer#wrapped"
+    //       ]
+    //   },
+    //   "list-context-renderer#wrapped":{
+    //       "props":{
+    //         // "listElement": "ul",
+    //         // "itemElement": "li",
+    //         "itemsPerPage":{
+    //             "desktop": 5,
+    //             "tablet": 3,
+    //             "phone": 1
+    //         }
+    //       }
+    //   }
+////////////////////////////////////////////////////////////////////////////////////////
+// ----------------SESION 4 reto 4----------------------------------------------------//
+////////////////////////////////////////////////////////////////////////////////////////
+"list-context.product-list#top-sale":{
+    "blocks":[
+          "list-context.image-list#main-slider"
+    ],
+    "children":[
+      "list-context-renderer#wrapped"
+    ]
+},
+"list-context-renderer#wrapped":{
+    "props":{
+      "listElement": "ul",
+      "itemElement": "li"
+    }
+},
+    "list-context.image-list#main-slider":{
+              "title":"carrusel",
+              "children":["slider-layout#main-slider"],
+              "props":{
+                  "images":[
+                      {
+                          "image":"https://i.imgur.com/oY7YEDM.jpg",
+                          "link":{
+                              "url":"/categoria"
+                          }
+                      },
+                      {
+                          "image":"https://i.imgur.com/oY7YEDM.jpg",
+                          "link":{
+                              "url":"/categoria"
+                          }
+                      },
+                      {
+                          "image":"https://i.imgur.com/oY7YEDM.jpg",
+                          "link":{
+                              "url":"/categoria"
+                          }
+                      }
+                     
+                    ]
+                }
+          },
+          "slider-layout#main-slider":{
+              "props":{
+                  "height":650,
+                  "preload":true,
+                  "itemsPerPage": {
+                      "desktop": 1,
+                      "phone":1
+                  },
+                  "infinite": true,
+                  "autoplay": {
+                      "timeout": 3500,
+                      "stopOnHover": true
+                    },
+                  "showNavigationArrows":"always",
+                  "showPaginationDots":"always"
+                }
+          }
+}

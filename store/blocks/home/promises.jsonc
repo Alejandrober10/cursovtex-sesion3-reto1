@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#promises":{
+             "children":[
+                "rich-text#promise-1",
+                "rich-text#promise-2",
+                "rich-text#promise-3",
+                "rich-text#promise-4",
+                "rich-text#promise-5"
+             ]
+         },
+
+        //  ------texto promesas------
+         "rich-text#promise-1":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/ACgNude.png) Envío al **76%** <br> **de Colombia**"
+            }
+         },
+         "rich-text#promise-2":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/WMT290j.png) Atención al cliente <br> **Domingo a Domingo**"
+            }
+         },
+         "rich-text#promise-3":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/hBZnXpU.png) **Amplio portafolio** <br> de productos"
+            }
+         },
+         "rich-text#promise-4":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/0W9jNwv.png) Entrega **ágil* <br> **y segura**"
+            }
+         },
+         "rich-text#promise-5":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/e1OW7Nd.png) **Rastrea** tus <br> **pedidos**"
+            }
+         }
+}

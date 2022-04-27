@@ -1,0 +1,158 @@
+{
+    "list-context.image-list#main-slider":{
+            "title":"carrusel",
+            "children":[
+                "slider-layout#main-slider"
+            ],
+            "props":{
+                "images":[
+                    {
+                        "image":"https://imgur.com/uXuNUmH.jpg",
+                        "link":{
+                            "url":"/departamento-1"
+                        }
+                    },
+                    {
+                        "image":"https://imgur.com/xez6idh.jpg",
+                        "link":{
+                            "url":"/departamento-2"
+                        }
+                    }
+                ]
+            }
+        },
+        "slider-layout#main-slider":{
+            "props":{
+                "height":650,
+                "preload":true,
+                "itemsPerPage": {
+                    "desktop": 1,
+                    "phone":1
+                },
+                "infinite": true,
+                "autoplay": {
+                    "timeout": 3500,
+                    "stopOnHover": true
+                },
+                "showNavigationArrows":"always",
+                "showPaginationDots":"always"
+            }
+        
+        },
+    // -------------------------------------------slider de productos-----------------------------
+    "flex-layout.row#product-slider":{
+        "children":[
+            "flex-layout.col#productText",
+            "flex-layout.col#productSlider"
+        ]
+    },
+    "flex-layout.col#productText":{
+        "children":[
+            "rich-text#productTittle",
+            "rich-text#productSubTittle"
+        ]        
+    },
+    "rich-text#productTittle":{
+        "props":{
+            "text":"LO MEJOR PARA TU PIEL"
+        }
+    },
+    "rich-text#productSubTittle":{
+        "props":{
+            "text":"DERMOCOSMÉTICA"
+        }
+    },
+    "flex-layout.col#productSlider":{
+        "children":[
+            "list-context.image-list#product-slider"
+        ]
+    },
+
+    "list-context.image-list#product-slider":{
+        "title":"carrusel",
+        "children":[
+            "slider-layout#product-slider"
+        ],
+        "props":{
+            "images":[
+                {
+                    "image":"https://imgur.com/kLD60Ny.jpg",
+                    "link":{
+                        "url":"/piel-1"
+                    }
+                },
+                {
+                    "image":"https://imgur.com/vmzoyCd.jpg",
+                    "link":{
+                        "url":"/piel-2"
+                    }
+                },
+                {
+                    "image":"https://imgur.com/i9fSgqT.jpg",
+                    "link":{
+                        "url":"/piel-3"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#product-slider":{
+        "props":{
+            "height":650,
+            "preload":true,
+            "itemsPerPage": {
+                "desktop": 3,
+                "phone":1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 3500,
+                "stopOnHover": true
+            },
+            "showNavigationArrows":"always",
+            "showPaginationDots":"always"
+        }
+    
+    },
+    // -------------------------categorias destacadas-----------------------------------
+    "rich-text#tittle-categorie":{
+        "props":{
+            "text":"CATEGORIAS DESTACADAS"
+        }
+     },
+    "slider-layout#categories":{
+            "props":{
+                "itemsPerPage": {
+                    "desktop": 5
+                },
+                "showNavigationArrows":"always",
+                "showPaginationDots":"always"
+            },
+            "children":[
+                "rich-text#categoria-1",
+                "rich-text#categoria-2",
+                "rich-text#categoria-3",
+                "rich-text#categoria-4"
+            ]
+        },
+        "rich-text#categoria-1":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/Apxvt2Q.jpg)<br> Cuidado facial"
+            }
+         },
+         "rich-text#categoria-2":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/R2Nvpir.jpg)<br> Cuidado capilar"
+            }
+         },
+         "rich-text#categoria-3":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/mRUBIWe.jpg)<br> proteccion solar"
+            }
+         },
+         "rich-text#categoria-4":{
+            "props":{
+                "text":"![imagen de prueba](https://imgur.com/VmC54EE.jpg)<br> cuidado corporal"
+            }
+         }
+}
